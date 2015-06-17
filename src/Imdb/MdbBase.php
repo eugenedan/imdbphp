@@ -33,6 +33,11 @@ class MdbBase extends Config {
       "November" => "11",
       "December" => "12"
     );
+    
+  /**
+   * @var imdbID
+   */
+  protected $imdbID;
 
   /**
    * @var Cache
